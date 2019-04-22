@@ -1,0 +1,21 @@
+{
+  "name": "demo-sls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "serverless-http": "^2.0.0",
+    "serverless-offline": "^4.9.4"
+  },
+  "devDependencies": {
+    "jest": "^24.7.1",
+    "supertest": "^4.0.2"
+  },
+  "scripts": {
+    "dev": "serverless offline start --port 4500",
+    "test": "jest"
+  },
+  "author": "ali",
+  "license": "ISC"
+}
